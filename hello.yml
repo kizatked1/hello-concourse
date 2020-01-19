@@ -6,11 +6,7 @@ image_resource:
 inputs:
   - name: hello
 run:
-  path: ./hello/hello.sh
-
-#run:
-#  path: bash
-#  args:
-#  - -c
-#  - |
-#    echo "Hello Worldaaaaa"
+  path: bash
+  args:
+  - -c
+  - find .
