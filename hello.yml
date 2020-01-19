@@ -9,4 +9,4 @@ run:
   path: bash
   args:
   - -c
-  - find .
+  - find . > out/result.log
